@@ -25,7 +25,7 @@ public class StringPrac {
 		char[] newS=s.toCharArray();
 		s=Arrays.toString(newS);
 		System.out.println(s);
-		System.out.println(sb.getChars(1,2,3,4));
+		//sSystem.out.println(sb.getChars(1,2,3,4));
 //		StringBuilder sb = new StringBuilder(s);
 //		
 //		System.out.println(sb.reverse());
