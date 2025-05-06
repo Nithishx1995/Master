@@ -18,7 +18,7 @@ public class WordOccurrence {
                 // Convert each word to lowercase to make it case-insensitive
                 .map(String::toLowerCase)
                 // Group by word and count occurrences
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+                .collect(Collectors.groupingBy(e->e,Collectors.counting()));
 
         // Print the word count
         wordCountMap.forEach((word, count) -> System.out.println(word + ": " + count));
