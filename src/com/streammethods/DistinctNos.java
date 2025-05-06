@@ -1,4 +1,4 @@
-package src.com.streamMethods;
+package src.com.streammethods;
 
 import java.util.Arrays;
 import java.util.List;

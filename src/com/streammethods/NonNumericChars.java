@@ -1,6 +1,5 @@
-package src.com.streamMethods;
+package src.com.streammethods;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
